@@ -1,0 +1,52 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BootstrapWPFApplication.Core", "BootstrapWPFApplication.Core\BootstrapWPFApplication.Core.csproj", "{AA4C38F0-42EB-4DD7-BB62-573EC78574EA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BootstrapWPFApplication.Infrastructure", "BootstrapWPFApplication.Infrastructure\BootstrapWPFApplication.Infrastructure.csproj", "{9A200B96-1796-41D7-B26E-7264FA88AD36}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BootstrapWPFApplication.Resources", "BootstrapWPFApplication.Resources\BootstrapWPFApplication.Resources.csproj", "{7EDB863B-7B26-46ED-B0A4-F94A51600F8E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BootstrapWPFApplication.ValidationAttributes", "BootstrapWPFApplication.ValidationAttributes\BootstrapWPFApplication.ValidationAttributes.csproj", "{F0B9E216-A13E-4B80-99FD-EF9572FC20B4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BootstrapWPFApplication.UI", "BootstrapWPFApplication.UI\BootstrapWPFApplication.UI.csproj", "{0A76ECE8-CE0A-419D-A18A-D078C644D379}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BootstrapWPFApplication.Tests", "BootstrapWPFApplication.Tests\BootstrapWPFApplication.Tests.csproj", "{A81FCFEB-CDEA-4B91-AFB3-37C2848935CF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AA4C38F0-42EB-4DD7-BB62-573EC78574EA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AA4C38F0-42EB-4DD7-BB62-573EC78574EA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AA4C38F0-42EB-4DD7-BB62-573EC78574EA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AA4C38F0-42EB-4DD7-BB62-573EC78574EA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9A200B96-1796-41D7-B26E-7264FA88AD36}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9A200B96-1796-41D7-B26E-7264FA88AD36}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9A200B96-1796-41D7-B26E-7264FA88AD36}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9A200B96-1796-41D7-B26E-7264FA88AD36}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7EDB863B-7B26-46ED-B0A4-F94A51600F8E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7EDB863B-7B26-46ED-B0A4-F94A51600F8E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7EDB863B-7B26-46ED-B0A4-F94A51600F8E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7EDB863B-7B26-46ED-B0A4-F94A51600F8E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F0B9E216-A13E-4B80-99FD-EF9572FC20B4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F0B9E216-A13E-4B80-99FD-EF9572FC20B4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F0B9E216-A13E-4B80-99FD-EF9572FC20B4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F0B9E216-A13E-4B80-99FD-EF9572FC20B4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0A76ECE8-CE0A-419D-A18A-D078C644D379}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0A76ECE8-CE0A-419D-A18A-D078C644D379}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0A76ECE8-CE0A-419D-A18A-D078C644D379}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0A76ECE8-CE0A-419D-A18A-D078C644D379}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A81FCFEB-CDEA-4B91-AFB3-37C2848935CF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A81FCFEB-CDEA-4B91-AFB3-37C2848935CF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A81FCFEB-CDEA-4B91-AFB3-37C2848935CF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A81FCFEB-CDEA-4B91-AFB3-37C2848935CF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
