@@ -41,8 +41,10 @@
       <HintPath>..\packages\MSTest.TestFramework.1.2.1\lib\net45\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll</HintPath>
       <Private>True</Private>
     </Reference>
+    <Reference Include="PresentationCore" />
     <Reference Include="System" />
     <Reference Include="System.Core" />
+    <Reference Include="System.Xaml" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -51,10 +53,32 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ConvertersTest.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\BootstrapWPFApplication.Core\BootstrapWPFApplication.Core.csproj">
+      <Project>{aa4c38f0-42eb-4dd7-bb62-573ec78574ea}</Project>
+      <Name>BootstrapWPFApplication.Core</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\BootstrapWPFApplication.Infrastructure\BootstrapWPFApplication.Infrastructure.csproj">
+      <Project>{9a200b96-1796-41d7-b26e-7264fa88ad36}</Project>
+      <Name>BootstrapWPFApplication.Infrastructure</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\BootstrapWPFApplication.Resources\BootstrapWPFApplication.Resources.csproj">
+      <Project>{7edb863b-7b26-46ed-b0a4-f94a51600f8e}</Project>
+      <Name>BootstrapWPFApplication.Resources</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\BootstrapWPFApplication.UI\BootstrapWPFApplication.UI.csproj">
+      <Project>{0a76ece8-ce0a-419d-a18a-d078c644d379}</Project>
+      <Name>BootstrapWPFApplication.UI</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{82A7F48D-3B50-4B1E-B82E-3ADA8210C358}" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
