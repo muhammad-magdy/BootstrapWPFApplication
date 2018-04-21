@@ -36,6 +36,7 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
     <Reference Include="System.Data" />
     <Reference Include="System.Xml" />
     <Reference Include="Microsoft.CSharp" />
@@ -63,6 +64,7 @@
     <Compile Include="Converters\StringMatchToVisibilityConverter.cs" />
     <Compile Include="Converters\ToLowerConverter.cs" />
     <Compile Include="Converters\ToUpperConverter.cs" />
+    <Compile Include="Helpers\ValidatableEntity.cs" />
     <Compile Include="Views\MainWindow.xaml.cs">
       <DependentUpon>MainWindow.xaml</DependentUpon>
     </Compile>
@@ -105,7 +107,6 @@
   <ItemGroup>
     <Folder Include="Behaviors\" />
     <Folder Include="DTO\" />
-    <Folder Include="Helpers\" />
     <Folder Include="Resources\" />
     <Folder Include="Services\" />
     <Folder Include="Skins\" />

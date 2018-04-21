@@ -51,6 +51,7 @@ BootstrapWPFApplication.Tests/obj
 BootstrapWPFApplication.UI/bin
 BootstrapWPFApplication.UI/obj
 packages
+.vs
 
 # Directories potentially created on remote AFP share
 .AppleDB
