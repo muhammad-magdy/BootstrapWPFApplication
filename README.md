@@ -2,6 +2,7 @@
 This repository is abootstrap for fast create wpf application
 
 # Useful links
+The below links will help you to start learning WPF or to improve your application
 * WPF Tutorials
   * [The Compelete Tutorial For Beginners](http://www.wpf-tutorial.com/)
   * [WPF Tutorial And Best Practices](https://www.wpftutorial.net/)
@@ -18,4 +19,6 @@ This repository is abootstrap for fast create wpf application
 * UI Automation Frameworks
   * [CUITE](https://github.com/icnocop/cuite)
   * [White](https://github.com/TestStack/White)
-  
+ 
+* MVVM Frameworks
+  * [MVVM Light](https://github.com/lbugnion/mvvmlight)
