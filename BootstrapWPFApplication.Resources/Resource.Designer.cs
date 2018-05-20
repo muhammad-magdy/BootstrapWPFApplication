@@ -59,5 +59,23 @@ namespace BootstrapWPFApplication.Resources {
                 resourceCulture = value;
             }
         }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Error.
+        /// </summary>
+        public static string Error {
+            get {
+                return ResourceManager.GetString("Error", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Error occured, Please check log file !.
+        /// </summary>
+        public static string GeneralExceptionMessage {
+            get {
+                return ResourceManager.GetString("GeneralExceptionMessage", resourceCulture);
+            }
+        }
     }
 }

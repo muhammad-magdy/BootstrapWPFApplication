@@ -13,11 +13,14 @@
 */
 
 using BootstrapWPFApplication.Core.UnitOfWork;
+using BootstrapWPFApplication.Core.Utility;
 using BootstrapWPFApplication.Infrastructure;
 using BootstrapWPFApplication.Infrastructure.UnitOfWork;
+using BootstrapWPFApplication.Infrastructure.Utility.NLogger;
 using BootstrapWPFApplication.UI.Services;
 using CommonServiceLocator;
 using Unity;
+using Unity.Lifetime;
 using Unity.ServiceLocation;
 
 namespace BootstrapWPFApplication.UI.ViewModel
@@ -51,6 +54,7 @@ namespace BootstrapWPFApplication.UI.ViewModel
 
             #region ApplicationServices
             container.RegisterType<IDialogService, DialogService>();
+            container.RegisterType<ILogger, AppLogger>(new ExternallyControlledLifetimeManager());
             #endregion
 
             #region ViewModel

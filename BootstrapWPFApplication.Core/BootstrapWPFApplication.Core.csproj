@@ -44,6 +44,8 @@
     <Compile Include="Repository\IRepository.cs" />
     <Compile Include="Services\IService.cs" />
     <Compile Include="UnitOfWork\IUnitOfWork.cs" />
+    <Compile Include="Utility\ILogger.cs" />
+    <Compile Include="Utility\LogCategory.cs" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Models\" />
