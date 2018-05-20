@@ -2,7 +2,7 @@
 This repository is a bootstrap for fast create wpf application using
 * Onion architecture.
 * Entity framework.
-* unit Of Work and Repository pattern.
+* Unit Of Work and Repository pattern.
 * Unity Container.
 * MVVM Light.
 * NLog.
