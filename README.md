@@ -16,6 +16,10 @@ The below links will help you to start learning WPF or to improve your applicati
   * [Toast Notification](https://github.com/muhammad-magdy/WPFToastNotification)
   * [CRUD Control](https://github.com/GenericCodes/WPFCrudControl)
   
+* Modern UI Icons
+  * [Modern Icon](http://modernuiicons.com)
+  * [Syncfusion Metro Studio](https://www.syncfusion.com/downloads/metrostudio)
+  
 * UI Automation Frameworks
   * [CUITE](https://github.com/icnocop/cuite)
   * [White](https://github.com/TestStack/White)
