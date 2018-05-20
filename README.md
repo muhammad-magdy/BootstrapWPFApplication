@@ -1,5 +1,12 @@
-# BootstrapWPFApplication
-This repository is abootstrap for fast create wpf application
+# Bootstrap WPF Application
+This repository is a bootstrap for fast create wpf application using
+* Onion architecture.
+* Entity framework.
+* unit Of Work and Repository pattern.
+* Unity Container.
+* MVVM Light.
+* NLog.
+* UnitTest (Microsoft VisualStudio TestFramework).
 
 # Useful links
 The below links will help you to start learning WPF or to improve your application
@@ -26,3 +33,6 @@ The below links will help you to start learning WPF or to improve your applicati
  
 * MVVM Frameworks
   * [MVVM Light](https://github.com/lbugnion/mvvmlight)
+
+* Logging
+  * [NLog](https://github.com/NLog/NLog)
